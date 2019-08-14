@@ -1,0 +1,84 @@
+@coreModulePath: '../../../node_modules/';
+@nav-frontend-core: '../../node_modules/';
+@import './node_modules/nav-frontend-typografi-style/src/index.less';
+@import './node_modules/nav-frontend-lenker-style/src/lenker-style.less';
+
+#app {
+    padding: 1.5rem 2rem 0;
+}
+
+
+html, body {
+    margin: 0;
+
+    &, #root {
+        height: 100%;
+    }
+}
+
+* {
+box-sizing: border-box;
+}
+
+.header {
+    img {
+        width: 140px;
+        height: 88px;
+    }
+    background-color: @navRod;
+    color: white;
+    margin-top: -3rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 1.5rem;
+}
+
+a {
+    .lenke
+}
+
+h1 {
+    .typo-sidetittel;
+    font-size: 3.5rem !important;
+    font-weight: 100 !important;
+}
+
+h2 {
+    .typo-innholdstittel
+}
+
+h3 {
+    .typo-systemtittel;
+    font-size: 3rem !important;
+    max-width: 40%;
+    font-weight: 100 !important;
+    line-height: 3rem !important;
+}
+
+h3::before {
+    content: '';
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+}
+
+h4 {
+    .typo-undertittel
+}
+
+.main-content {
+    width: 80%;
+    p {
+        .typo-normal;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+ul {
+    list-style-type: none;
+    .typo-normal;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

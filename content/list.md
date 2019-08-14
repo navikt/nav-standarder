@@ -1,0 +1,7 @@
+* [Vi setter oss inn i brukerens situasjon](#vi-setter-oss-inn-i-brukerens-situasjon)
+* [Vi realiserer produktområdets mål](#vi-realiserer-produktomr-dets-m-l)
+* [Vi skaper tillit](#vi-skaper-tillit)
+* [Vi leverer verdi ofte](#vi-leverer-verdi-ofte)
+* [Vi eksperimenterer, måler og lærer raskt](#vi-eksperimenterer--m-ler-og-l-rer-raskt)
+* [Vi er åpne og samarbeider med andre](#vi-er--pne-og-samarbeider-med-andre)
+* [Vi er selvstyrte innenfor gitte rammer](#vi-er-selvstyrte-innenfor-gitte-rammer)
