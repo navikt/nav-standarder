@@ -5,11 +5,15 @@
 
 #app {
     padding: 1.5rem 2rem 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 
 html, body {
     margin: 0;
+    overflow-x: hidden;
 
     &, #root {
         height: 100%;
@@ -17,7 +21,7 @@ html, body {
 }
 
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .header {
@@ -28,9 +32,8 @@ box-sizing: border-box;
     background-color: @navRod;
     color: white;
     margin-top: -3rem;
-    margin-left: -2rem;
-    margin-right: -2rem;
     padding: 1.5rem;
+    width: 100vw;
 }
 
 a {
@@ -50,7 +53,7 @@ h2 {
 h3 {
     .typo-systemtittel;
     font-size: 3rem !important;
-    max-width: 40%;
+    max-width: 70%;
     font-weight: 100 !important;
     line-height: 3rem !important;
 }
@@ -64,20 +67,39 @@ h3::before {
 }
 
 h4 {
-    .typo-undertittel
+    .typo-undertittel;
+    font-weight: 100 !important;
+}
+
+.list {
+    width: 100vw;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: @navBla;
+    a {
+        color: white;
+    }
+    ul {
+        list-style-type: none;
+    }
 }
 
 .main-content {
-    width: 80%;
+    max-width: 1000px;
+    padding-left: 10%;
+    padding-right: 10%;
     p {
         .typo-normal;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        font-weight: 100 !important;
     }
 }
 
 ul {
-    list-style-type: none;
+    // list-style-type: none;
     .typo-normal;
     margin-top: 2rem;
     margin-bottom: 2rem;

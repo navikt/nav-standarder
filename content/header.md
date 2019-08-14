@@ -1,2 +1,2 @@
-![NAV logo](/nav-logo-hvit.png)
+![NAV logo](./nav-logo-hvit.png)
 # Digitale Standarder
