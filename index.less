@@ -4,6 +4,7 @@
 @import './node_modules/nav-frontend-lenker-style/src/lenker-style.less';
 
 #app {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     padding: 1.5rem 2rem 0;
     display: flex;
     flex-flow: column;
@@ -25,14 +26,25 @@ html, body {
 }
 
 .header {
+    p {
+        font-size: 1.5rem;
+    }
     img {
         width: 140px;
         height: 88px;
     }
+    h1, p {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    h1 {
+        margin-bottom: 5rem;
+    }
     background-color: @navRod;
     color: white;
     margin-top: -3rem;
-    padding: 1.5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
     width: 100vw;
 }
 
@@ -44,6 +56,15 @@ h1 {
     .typo-sidetittel;
     font-size: 3.5rem !important;
     font-weight: 100 !important;
+}
+
+h1::after {
+    content: '';
+    border-top: 2px solid white;
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
 
 h2 {
@@ -73,16 +94,20 @@ h4 {
 
 .list {
     width: 100vw;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     padding-left: 10%;
     padding-right: 10%;
     background-color: @navBla;
     a {
         color: white;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
     }
     ul {
-        list-style-type: none;
+        list-style-type: decimal;
+        color: white;
+        font-size: 1.5rem;
     }
 }
 
@@ -96,11 +121,11 @@ h4 {
         margin-bottom: 2rem;
         font-weight: 100 !important;
     }
-}
 
-ul {
-    // list-style-type: none;
-    .typo-normal;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    ul {
+        // list-style-type: none;
+        .typo-normal;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
