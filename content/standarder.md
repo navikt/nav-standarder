@@ -8,7 +8,7 @@ Tidlig involvering og tilbakemelding fra brukerne øker sannsynligheten for at v
 *  Ved å sørge for at vi får raske tilbakemeldinger fra brukeren forstår vi behovet og hvordan vi kan forbedre produktet
 *  Vi bruker tilgjengelige og lovlige metoder for databehandling
 
-
+<a href='#normal-header'>til topp</a>
 
 ### Vi realiserer produktområdets mål
 
@@ -19,6 +19,7 @@ Produktutvikling skal alltid forankres i NAVs mål. Teamet vurderer best hvordan
 *  Produktområdet setter mål og retning for produktteamene
 *  Teamene definerer og prioriterer oppgaver som gradvis realiserer målbildet
 
+<a href='#normal-header'>til topp</a>
 
 ### Vi skaper tillit
 
@@ -32,6 +33,7 @@ Gjensidig respekt for hverandres kompetanse, og evne til å se andres perspektiv
 *  finner enkle løsninger på komplekse utfordringer
 *  har gode intensjoner
 
+<a href='#normal-header'>til topp</a>
 
 ### Vi leverer verdi ofte
 
@@ -43,6 +45,7 @@ Ved at teamet tar ansvar for å lage fremragende og enkle tekniske og funksjonel
 *  Vi eier vår egen arbeidsflyt og praksis og forbedrer disse kontinuerlig
 *  Vi er ansvarlig for produktkvaliteten både under utvikling og i drift
 
+<a href='#normal-header'>til topp</a>
 
 ### Vi eksperimenterer, måler og lærer raskt
 
@@ -58,6 +61,7 @@ Vi unngår dyre løsninger hvor forventet verdi baserer seg på feilaktige antak
 *  Vi lærer og gjør forbedringer kontinuerlig
 *  Vi setter av tid til å lære av feil og deler lærdommen
 
+<a href='#normal-header'>til topp</a>
 
 ### Vi er åpne og samarbeider med andre
 
@@ -69,6 +73,7 @@ Vi er åpne fordi vi ikke alltid vet hvem som er interessert i hva vi gjør. Ved
 *  Alle team har et ansvar for å bidra til å ivareta helheten på tvers av produkter og team
 *  Samhandling og informasjonsdeling mellom involverte interessenter er åpen, tydelig og effektiv
 
+<a href='#normal-header'>til topp</a>
 
 ### Vi er selvstyrte innenfor gitte rammer
 
@@ -84,3 +89,4 @@ Vi ønsker selvstyrte team som tar gode beslutninger raskt, for å oppnå høyer
 *  riktig og tilstrekkelig kompetanse og beslutningsmyndighet
 *  redusere tekniske og funksjonelle avhengigheter
 
+<a href='#normal-header'>til topp</a>

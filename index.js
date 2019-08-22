@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 const ReactMarkdown = require('react-markdown')
+const htmlParser = require('react-markdown/plugins/html-parser')
 
 import {readFileSync} from 'fs'
 import './index.less'
@@ -9,6 +10,8 @@ const standarder = readFileSync(__dirname + `/content/standarder.md`, 'utf-8')
 const header = readFileSync(__dirname + `/content/header.md`, 'utf-8')
 const list = readFileSync(__dirname + `/content/list.md`, 'utf-8')
 const footer = readFileSync(__dirname + `/content/footer.md`, 'utf-8')
+
+const parseHtml = htmlParser({isValidNode: node => node.type !== 'script'})
 
 function flatten(text, child) {
     return typeof child === 'string'
@@ -37,7 +40,7 @@ const Index = () => {
             <ReactMarkdown className='header container' source={ header } escapeHtml={false} />
             <ReactMarkdown className='list container' source={ list } escapeHtml={false} />
           </div>
-            <ReactMarkdown className='main-content container' source={ standarder } renderers={{heading: HeadingRenderer}} escapeHtml={false} />
+            <ReactMarkdown className='main-content container' source={ standarder } renderers={{heading: HeadingRenderer}} escapeHtml={false} astPlugins={[parseHtml]} />
             <ReactMarkdown className='footer container' source={ footer }  escapeHtml={false} />
         </>)
 }
@@ -45,16 +48,11 @@ const Index = () => {
 ReactDOM.render(<Index />, document.getElementById('app'))
 
 const onScrollEventHandler = (event) => {
-  
   if (document.body.scrollTop > 650) {
-    //document.getElementById('normal-header').style.display = 'none';
     document.getElementById('mini-header').classList.add('visible')
   } else {
-    //document.getElementById('normal-header').style.display = 'flex';
-    //document.getElementById('mini-header').style.display = 'none';
     document.getElementById('mini-header').classList.remove('visible')
   }
-
 } 
 
 if (window.addEventListener) {
