@@ -26,11 +26,40 @@ function flatten(text, child) {
 const Index = () => {
     return (
         <>
-            <ReactMarkdown className='header' source={ header } escapeHtml={false} />
-            <ReactMarkdown className='list' source={ list } escapeHtml={false} />
-            <ReactMarkdown className='main-content' source={ standarder } renderers={{heading: HeadingRenderer}} escapeHtml={false} />
-            <ReactMarkdown className='footer' source={ footer }  escapeHtml={false} />
+
+          <div id='mini-header'>
+            <img alt="NAV logo" src="./nav-logo-hvit.png" />
+            <a href='#normal-header' className='menu'>
+              <h3>Digitale standarder</h3>
+            </a>
+          </div> 
+          <div className='red-header' id='normal-header'>
+            <ReactMarkdown className='header container' source={ header } escapeHtml={false} />
+            <ReactMarkdown className='list container' source={ list } escapeHtml={false} />
+          </div>
+            <ReactMarkdown className='main-content container' source={ standarder } renderers={{heading: HeadingRenderer}} escapeHtml={false} />
+            <ReactMarkdown className='footer container' source={ footer }  escapeHtml={false} />
         </>)
 }
 
 ReactDOM.render(<Index />, document.getElementById('app'))
+
+const onScrollEventHandler = (event) => {
+  
+  if (document.body.scrollTop > 650) {
+    //document.getElementById('normal-header').style.display = 'none';
+    document.getElementById('mini-header').classList.add('visible')
+  } else {
+    //document.getElementById('normal-header').style.display = 'flex';
+    //document.getElementById('mini-header').style.display = 'none';
+    document.getElementById('mini-header').classList.remove('visible')
+  }
+
+} 
+
+if (window.addEventListener) {
+  window.addEventListener('scroll', onScrollEventHandler, true)
+} else if (window.attachEvent) {
+  window.attachEvent('onscroll', onScrollEventHandler)
+}
+
