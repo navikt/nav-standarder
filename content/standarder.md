@@ -1,4 +1,4 @@
-### Vi setter oss inn i brukerens situasjon
+### 1. Vi setter oss inn i brukerens situasjon
 
 Tidlig involvering og tilbakemelding fra brukerne øker sannsynligheten for at vi lager de riktige løsningene med en gang. Ved å involvere brukerne i alle faser av utviklingen skaper vi tillit og leverer best mulig løsninger med høy verdi for brukerne. Vi reduserer mengden av bortkastet utviklingsarbeid.
 
@@ -10,7 +10,7 @@ Tidlig involvering og tilbakemelding fra brukerne øker sannsynligheten for at v
 
 <a href='#normal-header'>til topp</a>
 
-### Vi realiserer produktområdets mål
+### 2. Vi realiserer produktområdets mål
 
 Produktutvikling skal alltid forankres i NAVs mål. Teamet vurderer best hvordan de kommer raskest til målet.
 
@@ -21,7 +21,7 @@ Produktutvikling skal alltid forankres i NAVs mål. Teamet vurderer best hvordan
 
 <a href='#normal-header'>til topp</a>
 
-### Vi skaper tillit
+### 3. Vi skaper tillit
 
 Gjensidig respekt for hverandres kompetanse, og evne til å se andres perspektiver, er nødvendig for å skape et team med høy ytelse.  For at et produktteam skal kunne jobbe effektivt er de avhengig av tillit fra omgivelsene. Produktteamet skal selv kunne løse de utfordringene det møter, derfor må teammedlemmene dele kompetanse med hverandre.
 
@@ -35,7 +35,7 @@ Gjensidig respekt for hverandres kompetanse, og evne til å se andres perspektiv
 
 <a href='#normal-header'>til topp</a>
 
-### Vi leverer verdi ofte
+### 4. Vi leverer verdi ofte
 
 Ved at teamet tar ansvar for å lage fremragende og enkle tekniske og funksjonelle løsninger, som teamet selv skal eie, blir kvaliteten ivaretatt gjennom hele produktets livsløp. Ved å redusere unødvendige arbeid (waste) bruker teamet sin kapasitet på å levere verdi for brukerne. Vi ønsker å jobbe bærekraftig med jevn arbeidsbelastning og varierte arbeidsoppgaver.
 
@@ -47,7 +47,7 @@ Ved at teamet tar ansvar for å lage fremragende og enkle tekniske og funksjonel
 
 <a href='#normal-header'>til topp</a>
 
-### Vi eksperimenterer, måler og lærer raskt
+### 5. Vi eksperimenterer, måler og lærer raskt
 
 Vi unngår dyre løsninger hvor forventet verdi baserer seg på feilaktige antakelser - da sikrer vi reell verdi for mindre innsats. Vi må kunne tilpasse oss løpende. Vi bygger legitimitet ved å hente kunnskap systematisk
 
@@ -63,7 +63,7 @@ Vi unngår dyre løsninger hvor forventet verdi baserer seg på feilaktige antak
 
 <a href='#normal-header'>til topp</a>
 
-### Vi er åpne og samarbeider med andre
+### 6. Vi er åpne og samarbeider med andre
 
 Vi er åpne fordi vi ikke alltid vet hvem som er interessert i hva vi gjør. Ved å dele internt legger vi samtidig til rette for NAVs samarbeid med andre etater og selskaper. Vi får bedre resultater når vi deler kode, data, kompetanse, lærdom og gode praksiser med andre.
 
@@ -75,7 +75,7 @@ Vi er åpne fordi vi ikke alltid vet hvem som er interessert i hva vi gjør. Ved
 
 <a href='#normal-header'>til topp</a>
 
-### Vi er selvstyrte innenfor gitte rammer
+### 7. Vi er selvstyrte innenfor gitte rammer
 
 Vi ønsker selvstyrte team som tar gode beslutninger raskt, for å oppnå høyere fart og bedre kvalitet. Dette gjøres mest effektivt i tverrfaglige team som forstår vår virksomhet og har nødvendig beslutningsmyndighet for sitt produkt. Teamet forholder seg til retningslinjer og skal etterleve relevante krav. 
 
