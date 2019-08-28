@@ -79,14 +79,13 @@ Vi er åpne fordi vi ikke alltid vet hvem som er interessert i hva vi gjør. Ved
 
 Vi ønsker selvstyrte team som tar gode beslutninger raskt, for å oppnå høyere fart og bedre kvalitet. Dette gjøres mest effektivt i tverrfaglige team som forstår vår virksomhet og har nødvendig beslutningsmyndighet for sitt produkt. Teamet forholder seg til retningslinjer og skal etterleve relevante krav. 
 
-* Selvstyre (autonomi), hensikt og mestring er de sentrale faktorene for motivasjon. Dette forutsetter imidlertid at teamet har den nødvendige autoriteten gitt gjennom rammene teamet skal jobbe innenfor.
-* Hele organisasjonen blir mer effektiv når tverrfaglige team gis myndighet.
-* Resultatet blir best når beslutninger tas der hvor innsikten er størst
-
 #### Sjekkliste
 
-*  felles forståelse av teamets hensikt, strategi og retning definert av produktområdet
-*  riktig og tilstrekkelig kompetanse og beslutningsmyndighet
-*  redusere tekniske og funksjonelle avhengigheter
+*  Selvstyre (autonomi), hensikt og mestring er de sentrale faktorene for motivasjon. Dette forutsetter imidlertid at teamet har den nødvendige autoriteten gitt gjennom rammene teamet skal jobbe innenfor.
+*  Hele organisasjonen blir mer effektiv når tverrfaglige team gis myndighet.
+*  Resultatet blir best når beslutninger tas der hvor innsikten er størst
+*  Felles forståelse av teamets hensikt, strategi og retning definert av produktområdet
+*  Riktig og tilstrekkelig kompetanse og beslutningsmyndighet
+*  Redusere tekniske og funksjonelle avhengigheter
 
 <a href='#normal-header'>til topp</a>

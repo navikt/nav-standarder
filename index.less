@@ -108,6 +108,18 @@ h4 {
     }
 }
 
+@media only screen and (min-width : 800px) {
+    #mini-header {
+        a {
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            color: white;
+        }
+    }
+}
+
 #mini-header {
     display: none;
     position: fixed;
@@ -136,15 +148,15 @@ h4 {
         content: '';
         background: url('./assets/menu.svg');
         background-repeat: no-repeat;
-        padding-right: 32px;
+        margin-right: 32px;
+        margin-top: 8px;
         height: 40px;
         width: 40px;
+        background-position: center;
+        background-size: contain;
         display: inline-block;
     }
-    a {
-        margin-left: 20%;
-        color: white;
-    }
+
 }
 
 .main-content {
@@ -152,7 +164,7 @@ h4 {
         float: right;
     }
     p {
-        font-size: 17px !important;
+        font-size: 15px !important;
         line-height: 34px !important;
         margin-bottom: 40px;
         margin-top: 40px;
@@ -162,7 +174,7 @@ h4 {
     ul {
         // list-style-type: none;
         margin-top: 40px;
-        font-size: 15px !important;
+        font-size: 17px !important;
         line-height: 24px !important;
         padding-left: 15px;
         li {
@@ -202,10 +214,12 @@ h4 {
             display: none;
         }
         a {
+            height: 52px;
             margin-left: 32px;
+            position: initial !important;
         }
         a::before {
-            margin-top: 12px;
+            margin-top: 0px !important;
         }
         img {
             margin-left: 32px;
@@ -247,7 +261,7 @@ h4 {
             margin-left: 24px;
         }
         a::before {
-            padding-right: 24px;
+            margin-right: 24px;
         }
     }
 
